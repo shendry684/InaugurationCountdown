@@ -33,15 +33,7 @@ class App extends Component {
                 <div className="box">
                     <Clock2 deadline={
                         this.state.deadline
-                    }/> {/* <Form inline>
-                    <FormControl placeholder='new date'
-                        onChange={
-                            event => this.setState({newDeadLine: event.target.value})
-                        }/>
-                    <Button onClick={
-                        () => this.changeDeadLine()
-                    }>Submit</Button>
-                </Form> */} </div>
+                 </div>
             </div>
         );
     }
