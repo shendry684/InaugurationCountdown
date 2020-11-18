@@ -36,7 +36,7 @@ class Clock extends Component {
 
     render() {
         return (
-            <div class="wrap">
+            <div className="wrap">
                 <div className="Clock-units days" data-init-value="24">
 
 
@@ -51,12 +51,12 @@ class Clock extends Component {
                                             </th>
                                             <div className=" figure Clock-days">
                                                 <span className="count-num"></span>
-                                                <span class="top"></span>
-                                                <span class="top-back">
+                                                <span className="top"></span>
+                                                <span className="top-back">
                                                     <span></span>
                                                 </span>
-                                                <span class="bottom"></span>
-                                                <span class="bottom-back">
+                                                <span className="bottom"></span>
+                                                <span className="bottom-back">
                                                     <span></span>
                                                 </span>
                                                 {
@@ -69,12 +69,12 @@ class Clock extends Component {
                                             </th>
                                             <div className="figure Clock-hours">
                                                 <span className="count-num"></span>
-                                                <span class="top"></span>
+                                                <span classNames="top"></span>
                                                 <span class="top-back">
                                                     <span></span>
                                                 </span>
-                                                <span class="bottom"></span>
-                                                <span class="bottom-back">
+                                                <span className="bottom"></span>
+                                                <span className="bottom-back">
                                                     <span></span>
                                                 </span>
                                                 <span className="count-num"></span>
@@ -88,12 +88,12 @@ class Clock extends Component {
                                             </th>
                                             <div className=" figure Clock-minutes">
                                                 <span className="count-num"></span>
-                                                <span class="top"></span>
+                                                <span className="top"></span>
                                                 <span class="top-back">
                                                     <span></span>
                                                 </span>
-                                                <span class="bottom"></span>
-                                                <span class="bottom-back">
+                                                <span className="bottom"></span>
+                                                <span className="bottom-back">
                                                     <span></span>
                                                 </span>
                                                 {
@@ -106,12 +106,12 @@ class Clock extends Component {
                                             </th>
                                             <div className="figure Clock-seconds">
                                                 <span className="count-num"></span>
-                                                <span class="top"></span>
-                                                <span class="top-back">
+                                                <span className="top"></span>
+                                                <span className="top-back">
                                                     <span></span>
                                                 </span>
-                                                <span class="bottom"></span>
-                                                <span class="bottom-back">
+                                                <span className="bottom"></span>
+                                                <span className="bottom-back">
                                                     <span></span>
                                                 </span>
                                                 <span className="count-num"></span>
@@ -128,9 +128,8 @@ class Clock extends Component {
                     </div>
                 </div>
             </div>
+
         );
     }
 }
-
-
 export default Clock;
